@@ -14,7 +14,7 @@ body {
   text-transform: uppercase;
 }
 .nav-item {
-  padding: 0 1em;
+  padding: 0 0;
   font-size: 14px;
 }
 .dropdown-item
@@ -24,6 +24,7 @@ body {
 @media (min-width: 768px) {
   .nav-item
   {
+    padding: 0 0;
    font-size: 16px;
   }
   .dropdown-item
@@ -34,6 +35,7 @@ body {
 @media (min-width: 992px) {
   .nav-item
   {
+    padding: 0 1em;
    font-size: 18px;
   }
   .dropdown-item
