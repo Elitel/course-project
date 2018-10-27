@@ -1,3 +1,4 @@
+/* MAIN */
 body {
   font-family: 'Spectral', serif;
   color: black;
@@ -5,6 +6,8 @@ body {
   background-color: white;
   font-size: 14px;
 }
+
+
 
 /** HEADER **/
 #header-nav {
@@ -14,7 +17,6 @@ body {
   text-transform: uppercase;
 }
 .nav-item {
-  padding: 0 0;
   font-size: 14px;
 }
 .dropdown-item
@@ -24,7 +26,6 @@ body {
 @media (min-width: 768px) {
   .nav-item
   {
-    padding: 0 0;
    font-size: 16px;
   }
   .dropdown-item
@@ -35,7 +36,7 @@ body {
 @media (min-width: 992px) {
   .nav-item
   {
-    padding: 0 1em;
+   padding: 0 0.9em;
    font-size: 18px;
   }
   .dropdown-item
@@ -46,15 +47,11 @@ body {
 
 
 
-
 /** CAROUSEL **/
-.carousel-caption
-{
+.carousel-caption{
   color:black;
   text-align: left;
 }
-
- 
 @media (min-width: 576px) {
 }
 
