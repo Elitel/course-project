@@ -1,31 +1,64 @@
 body {
-  font-family: "Playfair Display", serif;
-  color: white;
-  background-color: rgb(146, 235, 215);
-  font-size: 16px;
+  font-family: 'Spectral', serif;
+  color: black;
+  font-weight: 700;
+  background-color: white;
+  font-size: 14px;
 }
+
 /** HEADER **/
 #header-nav {
-  background-color: rgb(229, 245, 241);
+  background-color: white;
 }
-
-
-
-@media (min-width: 576px) {
- .navbar-light
- {
+.nav-link {
+  text-transform: uppercase;
+}
+.nav-item {
+  padding: 0 1em;
   font-size: 14px;
- }
 }
-
+.dropdown-item
+  {
+    font-size: 12px;
+}
 @media (min-width: 768px) {
-  .navbar-light
+  .nav-item
   {
    font-size: 16px;
   }
+  .dropdown-item
+  {
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  .nav-item
+  {
+   font-size: 18px;
+  }
+  .dropdown-item
+  {
+    font-size: 16px;
+  }
+}
+
+
+
+
+/** CAROUSEL **/
+.carousel-caption
+{
+  color:black;
+  text-align: left;
+}
+
+ 
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
 }
 
 @media (min-width: 992px) {
-
 }
 
