@@ -23,8 +23,8 @@
         <nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar">
             <!--Логотип-->
             <a class="navbar-brand" href="index.html">
-                <img class="visible-sm" src="images/7-best-practices-for-homepage-uxui-design_featured_900.jpg" height="50"
-                    alt="">
+                <img class="visible-sm" src="images/svg/logo.svg" height="50"
+                    alt="logo img">
             </a>
             <!--/Логотип-->
             <!--Хлебные крошки-->
@@ -99,13 +99,6 @@
                     <!--/Вакансии-->
                 </ul>
                 <!--Пункты меню-->
-                <!--Поиск-->
-                <form class="form-inline">
-                    <div class="md-form my-0">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Поиск" aria-label="Поиск">
-                    </div>
-                </form>
-                <!--/Поиск-->
             </div>
         </nav>
         <!--/Меню-->
@@ -119,24 +112,22 @@
                 <div class="col-lg-4 col-md-6 p-4">
                     <div class="view overlay">
                         <img src="images/pencil-typography-black-design.jpg" class="img-fluid" alt="Sample image for first version of blog listing">
-                        <a>
                             <div class="mask rgba-white-slight"></div>
-                        </a>
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-6 text-md-left">
                     <ul class="nav nav-justified nav-pills text-uppercase black-text mb-3" id="pills-tab2" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="pills-course2-tab" data-toggle="pill" href="#pills-course2"
+                            <a class="nav-link active" id="pills-info-tab" data-toggle="pill" href="#pills-info"
                                 role="tab" aria-controls="pills-home" aria-selected="true">Общая информация</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="pills-program2-tab" data-toggle="pill" href="#pills-program2" role="tab"
+                            <a class="nav-link" id="pills-styles-tab" data-toggle="pill" href="#pills-styles" role="tab"
                                 aria-controls="pills-profile" aria-selected="false">Стили в веб-дизайне</a>
                         </li>
                     </ul>
                     <div class="tab-content p-4 " id="pills-tabContent2">
-                        <div class="tab-pane fade show active" id="pills-course2" role="tabpanel" aria-labelledby="pills-course2-tab">Consequat
+                        <div class="tab-pane fade show active" id="pills-info" role="tabpanel" aria-labelledby="pills-info-tab">Consequat
                             occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt
                             officia. Fugiat
                             velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna
@@ -146,7 +137,7 @@
                             minim anim aliquip cupidatat culpa excepteur quis. Occaecat sit eu exercitation irure Lorem
                             incididunt
                             nostrud.</div>
-                        <div class="tab-pane fade" id="pills-program2" role="tabpanel" aria-labelledby="pills-program2-tab">
+                        <div class="tab-pane fade" id="pills-styles" role="tabpanel" aria-labelledby="pills-styles-tab">
                             <ul>
                                 <li>
                                     <a href="style_classic.html">Классический стиль</a>
@@ -264,7 +255,31 @@
                     </div>
                 </div>
                 <div class="col-md-auto">
-                    <a class="text-uppercase">О нас</a>
+                    <a class="text-uppercase" data-toggle="modal" data-target="#modalInfo">О нас</a>
+                    <div class="modal fade" id="modalInfo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content black-text ">
+                                <div class="modal-header text-center">
+                                    <h4 class="modal-title black-text w-100 font-weight-bold">О нас</h4>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body mt-2">
+                                    <div class=" mb-3">
+                                        UIniverse
+                                    </div>
+                                    <div class="mb-3">
+                                        Инфа
+                                    </div>
+                                    <div class="rows=" 3" mb-3">
+                                        Электронный адрес
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

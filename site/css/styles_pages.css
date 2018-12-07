@@ -46,6 +46,12 @@ body{
   border-radius: 1em;
   background-color:#F1F0F6;
 }
+.textInfo
+{
+  text-indent: 1.5em;
+  text-align: justify;
+}
+
 
   .scrolling-navbar {
     transition: background .5s ease-in-out, padding .5s ease-in-out;
