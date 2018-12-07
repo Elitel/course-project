@@ -51,7 +51,10 @@ body{
   text-indent: 1.5em;
   text-align: justify;
 }
-
+p {
+  margin-top: 0.3em; /* Отступ сверху */
+  margin-bottom: 0.3em; /* Отступ снизу */
+ }
 
   .scrolling-navbar {
     transition: background .5s ease-in-out, padding .5s ease-in-out;
@@ -110,7 +113,6 @@ div.view.overlay>img{
 }
 [aos="fade"] {
   opacity: 0;
-  justify-content
   transition-property: opacity;
 }
 
